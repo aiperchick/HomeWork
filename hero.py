@@ -10,8 +10,7 @@ catchphrase):
     def n(self):
         print(f'имя: {self.name}')
     def health(self):
-        hero_h = self.health_points * 2
-        print(f'удвоеннное здоровье: {hero_h}')
+        self.health_points *= 2
     def __str__(self):
         return f'никнейм: {self.nickname}, суперсила: {self.superpower}, здоровье: {self.health_points}'
     def __len__(self):
